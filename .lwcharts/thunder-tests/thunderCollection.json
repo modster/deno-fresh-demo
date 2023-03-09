@@ -1,0 +1,224 @@
+[
+  {
+    "_id": "e1737abe-1b66-4e83-959c-8790842cd2e6",
+    "colName": "Binance spot API",
+    "created": "2023-03-08T18:55:28.498Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "86165bde-c0ee-4da9-a010-e90d3e188540",
+        "name": "BLVT",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.502Z",
+        "sortNum": 10000
+      },
+      {
+        "_id": "c1ad5ef1-812a-4ed8-94dc-246f623fb9a0",
+        "name": "BSwap",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.503Z",
+        "sortNum": 20000
+      },
+      {
+        "_id": "1963166f-57a0-4896-9f07-2bad8986769b",
+        "name": "C2C",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.504Z",
+        "sortNum": 30000
+      },
+      {
+        "_id": "b41c93d7-1a59-451f-8f4e-9cb8999bfd89",
+        "name": "Convert",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.505Z",
+        "sortNum": 40000
+      },
+      {
+        "_id": "ce7bbad3-138e-45b1-a617-59bb043f0ab6",
+        "name": "Crypto Loans",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.506Z",
+        "sortNum": 50000
+      },
+      {
+        "_id": "f756e2b0-1d93-4fdd-b7a5-1599b668e81c",
+        "name": "Fiat",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.507Z",
+        "sortNum": 60000
+      },
+      {
+        "_id": "c30a809b-aa19-42b6-bcd3-d869ae3e10d4",
+        "name": "Futures",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.508Z",
+        "sortNum": 70000
+      },
+      {
+        "_id": "f3539c15-a7dd-43b5-9f94-e5d6677578c3",
+        "name": "Futures Algo",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.509Z",
+        "sortNum": 80000
+      },
+      {
+        "_id": "e78af173-f8b8-45e5-b7e3-e075e36edb28",
+        "name": "Gift Card",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.510Z",
+        "sortNum": 90000
+      },
+      {
+        "_id": "6266816c-4870-47cd-994d-8bfb16863c63",
+        "name": "Margin",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.511Z",
+        "sortNum": 100000
+      },
+      {
+        "_id": "066124ed-8a91-4edb-9080-55d1c5b7bce5",
+        "name": "Market",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.512Z",
+        "sortNum": 110000,
+        "settings": {
+          "headers": [],
+          "tests": [],
+          "preReq": {
+            "runRequests": [
+              {
+                "reqId": "5d561260-5447-4ee8-813f-476e79aa86bc",
+                "colId": "e1737abe-1b66-4e83-959c-8790842cd2e6",
+                "triggerCondition": "run-mins",
+                "triggerValue": "5"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "_id": "e01aeabf-f1d0-4942-b35e-ba4b42552039",
+        "name": "Mining",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.513Z",
+        "sortNum": 120000
+      },
+      {
+        "_id": "1a27bcb9-e35f-4d43-af77-f569e6679618",
+        "name": "NFT",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.514Z",
+        "sortNum": 130000
+      },
+      {
+        "_id": "b761ed61-aab3-4de7-b4b9-74cb2210f9b4",
+        "name": "Pay",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.515Z",
+        "sortNum": 140000
+      },
+      {
+        "_id": "8f98fa9b-5cc2-4402-bcbd-3ba047b942f3",
+        "name": "Portfolio Margin",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.516Z",
+        "sortNum": 150000
+      },
+      {
+        "_id": "e63bcc62-8fd4-4652-9790-0d60648297d7",
+        "name": "Rebate",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.517Z",
+        "sortNum": 160000
+      },
+      {
+        "_id": "e7298e8a-2008-4773-9a77-62e0021b955f",
+        "name": "Savings",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.518Z",
+        "sortNum": 170000
+      },
+      {
+        "_id": "4fadb2dd-db49-402f-b7f9-7fe286e6e911",
+        "name": "Staking",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.519Z",
+        "sortNum": 180000
+      },
+      {
+        "_id": "da4ac2c1-825b-430c-b9e7-ce1862fc2cd5",
+        "name": "Sub-Account",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.520Z",
+        "sortNum": 190000
+      },
+      {
+        "_id": "93a3f1b3-94b3-46af-a303-f467158cc945",
+        "name": "Trade",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.521Z",
+        "sortNum": 200000
+      },
+      {
+        "_id": "23216d86-8c91-43d3-97a7-8557fa64d11c",
+        "name": "User Data Stream",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.522Z",
+        "sortNum": 210000
+      },
+      {
+        "_id": "20e9c87d-84be-4635-8d83-3f2712a70251",
+        "name": "Spot",
+        "containerId": "23216d86-8c91-43d3-97a7-8557fa64d11c",
+        "created": "2023-03-08T18:55:28.523Z",
+        "sortNum": 220000
+      },
+      {
+        "_id": "f65089b9-dacb-46e0-b4f8-38649a375059",
+        "name": "Cross Margin",
+        "containerId": "23216d86-8c91-43d3-97a7-8557fa64d11c",
+        "created": "2023-03-08T18:55:28.524Z",
+        "sortNum": 230000
+      },
+      {
+        "_id": "9926d0b1-d497-4426-86d5-241e3b8216f5",
+        "name": "Isolated Margin",
+        "containerId": "23216d86-8c91-43d3-97a7-8557fa64d11c",
+        "created": "2023-03-08T18:55:28.525Z",
+        "sortNum": 240000
+      },
+      {
+        "_id": "e5d0e897-c16a-4082-9594-a63da60d0517",
+        "name": "Wallet",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.526Z",
+        "sortNum": 250000
+      },
+      {
+        "_id": "da649b94-940c-4fc3-bd60-0da486d08fae",
+        "name": "VIP Loans",
+        "containerId": "",
+        "created": "2023-03-08T18:55:28.527Z",
+        "sortNum": 260000
+      }
+    ],
+    "settings": {
+      "headers": [],
+      "tests": [],
+      "options": {
+        "baseUrl": "https://api.binance.com"
+      },
+      "preReq": {
+        "runRequests": [
+          {
+            "reqId": "af1cabda-1e74-4fd3-9192-94f958a6283b",
+            "colId": "e1737abe-1b66-4e83-959c-8790842cd2e6",
+            "triggerCondition": "run-always",
+            "triggerValue": ""
+          }
+        ]
+      },
+      "envId": "0da5f76c-9969-430b-9a04-4258d81baf1d"
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "78d57ff7-a1ae-459b-8ecc-ebc98aac6c83",
+    "colId": "history",
+    "containerId": "",
+    "name": "{{url}}/sapi/v1/accountSnapshot?type=SPOT&timestamp={{timestamp}}&signature={{signature}}",
+    "url": "{{url}}/sapi/v1/accountSnapshot?type=SPOT&timestamp={{timestamp}}&signature={{signature}}",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-08T20:42:49.419Z",
+    "modified": "2023-03-08T20:42:49.419Z",
+    "headers": [
+      {
+        "name": "Content-Type",
+        "value": "application/json"
+      },
+      {
+        "name": "X-MBX-APIKEY",
+        "value": "{{binance-api-key}}"
+      }
+    ],
+    "params": [
+      {
+        "name": "type",
+        "value": "SPOT",
+        "isPath": false
+      },
+      {
+        "name": "startTime",
+        "value": "",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "endTime",
+        "value": "",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "limit",
+        "value": "",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "recvWindow",
+        "value": "5000",
+        "isDisabled": true,
+        "isPath": false
+      },
+      {
+        "name": "timestamp",
+        "value": "{{timestamp}}",
+        "isPath": false
+      },
+      {
+        "name": "signature",
+        "value": "{{signature}}",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]

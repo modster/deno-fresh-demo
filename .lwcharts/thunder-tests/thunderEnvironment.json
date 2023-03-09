@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "af1d9cf5-884a-4bf7-82fc-5f51ed22d729",
+    "name": "Binance Spot Testnet API",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2023-03-08T18:56:03.065Z",
+    "modified": "2023-03-08T18:56:03.065Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "https://testnet.binance.vision"
+      },
+      {
+        "name": "timestamp",
+        "value": ""
+      },
+      {
+        "name": "binance-api-key",
+        "value": "DQgByJ3MTY7a4v00SEOpv1gN5MUP9dmhFhwFf2d2kQehbOgnptzv0lT1qoiZIN8n"
+      },
+      {
+        "name": "binance-api-secret",
+        "value": "Mf06ftRv7paL1JJ9i8KD72x6BECZmMISXkne5BeFUJNbqKr61cbM1SsbRpwqwJxi"
+      },
+      {
+        "name": "signature",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "_id": "0da5f76c-9969-430b-9a04-4258d81baf1d",
+    "name": "Binance Spot API",
+    "default": false,
+    "sortNum": 20000,
+    "created": "2023-03-08T19:11:55.802Z",
+    "modified": "2023-03-08T19:11:55.802Z",
+    "data": [
+      {
+        "name": "url",
+        "value": "https://api2.binance.com"
+      },
+      {
+        "name": "binance-api-key",
+        "value": "DQgByJ3MTY7a4v00SEOpv1gN5MUP9dmhFhwFf2d2kQehbOgnptzv0lT1qoiZIN8n"
+      },
+      {
+        "name": "binance-api-secret",
+        "value": "Mf06ftRv7paL1JJ9i8KD72x6BECZmMISXkne5BeFUJNbqKr61cbM1SsbRpwqwJxi"
+      },
+      {
+        "name": "signature",
+        "value": "{{signature}}"
+      },
+      {
+        "name": "timestamp",
+        "value": "{{#date}}"
+      },
+      {
+        "name": "recvWindow]",
+        "value": "5000"
+      }
+    ]
+  }
+]
